@@ -11,6 +11,6 @@ public class HomeController {
 
     @RequestMapping("/")
     public String home() {
-        return "Das Boot, reporting for duty!";
+        return "HelloWorld, Welcome to Java App!";
     }
 }
